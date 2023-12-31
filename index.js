@@ -29,6 +29,6 @@ app.use("/api/checkout", stripeRoute);
 // app.get("*", (req, res) => {
 //   res.sendFile(path.join(__dirname, "/client/build", "index.html"));
 // });
-app.listen(process.env.PORT || 5000, "0.0.0.0", () => {
+app.listen(process.env.PORT || 8081, "0.0.0.0", () => {
   console.log("Backend server is running!");
 });
